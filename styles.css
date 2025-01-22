@@ -1,0 +1,48 @@
+.section-flex {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+   
+    background-color: aquamarine;
+    padding: 30px 50px;
+}
+
+.section1{
+    background-color: chartreuse;
+    padding: 30px 50px;
+}
+.section2{
+    background-color: goldenrod;
+    padding: 30px 50px;
+}
+.section3{
+    
+    background-color: blanchedalmond;
+   
+    
+}
+.section3 > div:first-child {
+    background-color: red;
+    width: 33%;
+    padding: 30px 50px
+
+}
+.section3 > div:last-child {
+    background-color: pink;
+    width: 67%;
+    padding: 30px 50px
+}
+
+
+
+footer
+{
+    background-color: blueviolet;
+    padding: 15px 50px;
+}
+
+
